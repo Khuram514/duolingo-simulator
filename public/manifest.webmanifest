@@ -1,0 +1,17 @@
+{
+  "name": "ScoreForge 130+ English Lab",
+  "short_name": "ScoreForge",
+  "description": "Independent AI-powered English proficiency test simulator.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef5f9",
+  "theme_color": "#19aef0",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

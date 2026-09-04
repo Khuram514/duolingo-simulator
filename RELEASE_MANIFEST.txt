@@ -1,0 +1,58 @@
+ScoreForge 130+ Release Manifest
+Version: 2.1.1
+Release date: 2026-09-04
+
+Major release features:
+- Complete Node.js source code, not documentation-only files.
+- Unified Dashboard, Practice, Guide, History, setup, examination, and results design.
+- Consistent blue, white, green, and soft-gray visual system.
+- Back-arrow navigation throughout the main workflows.
+- Nine local realistic WebP photographs with credits and grading metadata.
+- Character-by-character Fill in the Blanks and Read and Complete controls.
+- Natural OpenRouter text-to-speech with browser voice fallback.
+- AI/fallback question generation, transcription, scoring, reports, history, and export.
+- Twelve automated tests and complete JavaScript syntax validation.
+
+Files included:
+.env.example
+.gitignore
+CREDITS.md
+CUSTOMIZATION.md
+LICENSE
+OPENROUTER_SETUP.md
+QA_REPORT.md
+README.md
+RELEASE_MANIFEST.txt
+RUN_SCORE_FORGE.cmd
+VERIFY_PROJECT.cmd
+package.json
+public/favicon.svg
+public/images/photos/astronaut-portrait.webp
+public/images/photos/cafe-coffee.webp
+public/images/photos/cat-closeup.webp
+public/images/photos/coastal-village.webp
+public/images/photos/deep-space.webp
+public/images/photos/field-photographer.webp
+public/images/photos/motion-clock.webp
+public/images/photos/rocket-pad.webp
+public/images/photos/shuttle-launch.webp
+public/index.html
+public/js/api.js
+public/js/app.js
+public/js/audio.js
+public/js/renderers.js
+public/js/scoring.js
+public/js/storage.js
+public/manifest.webmanifest
+public/styles.css
+run-scoreforge.sh
+server/fallback-pack.mjs
+server/openrouter.mjs
+server/pack-builder.mjs
+server/prompts.mjs
+server/scoring.mjs
+server.mjs
+test/fallback-pack.test.mjs
+test/photo-navigation.test.mjs
+test/practice-blueprint.test.mjs
+test/scoring.test.mjs

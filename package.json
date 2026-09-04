@@ -1,0 +1,17 @@
+{
+  "name": "scoreforge-130-plus",
+  "version": "2.1.1",
+  "private": true,
+  "type": "module",
+  "description": "AI-powered English proficiency test simulator with OpenRouter integration.",
+  "scripts": {
+    "dev": "node --watch server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check server.mjs && node --check server/openrouter.mjs && node --check server/prompts.mjs && node --check server/fallback-pack.mjs && node --check public/js/app.js && node --check public/js/api.js && node --check public/js/audio.js && node --check public/js/scoring.js && node --check public/js/storage.js && node --check public/js/renderers.js",
+    "verify": "npm run check && npm test"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
