@@ -1,10 +1,10 @@
-# ScoreForge 130+
+# Duolingo Simulator
 
 **Release 2.1.1 — Unified Design + Real Photographs + Back Navigation**
 
-**ScoreForge 130+** is a complete, independent English proficiency test simulator designed for learners targeting a practice score above 130. It uses realistic time pressure, adaptive question selection, optional OpenRouter question generation, speech transcription, AI feedback, and a detailed 10–160 practice score report.
+**Duolingo Simulator 130+** is a complete, independent English proficiency test simulator designed for learners targeting a practice score above 130. It uses realistic time pressure, adaptive question selection, optional OpenRouter question generation, speech transcription, AI feedback, and a detailed 10–160 practice score report.
 
-> **Important:** ScoreForge is not affiliated with, endorsed by, or a replacement for the official Duolingo English Test. Its results are estimates for practice only. Only the official test provider can issue a certified result.
+> **Important:** Duolingo Simulator is not affiliated with, endorsed by, or a replacement for the official Duolingo English Test. Its results are estimates for practice only. Only the official test provider can issue a certified result.
 
 ## What is included
 
@@ -84,7 +84,7 @@ node --version
 
 ### 2. Open the project
 
-Extract the ZIP, open the `ScoreForge-130-Plus-v2.1.1` folder in VS Code, and open a terminal in that folder.
+Extract the ZIP, open the `Duolingo Simulator-130-Plus-v2.1.1` folder in VS Code, and open a terminal in that folder.
 
 ### 3. Configure OpenRouter
 
@@ -239,7 +239,7 @@ A full AI-enabled session can make:
 - One AI-generated Interactive Writing follow-up and several adaptive Interactive Speaking follow-ups during a full AI-enabled test.
 - Two final rubric-grading calls.
 
-Actual cost depends on the models, response lengths, and OpenRouter pricing. When OpenRouter returns cost metadata, ScoreForge records an approximate combined API cost in the report. Set spending limits in your OpenRouter account before extensive practice.
+Actual cost depends on the models, response lengths, and OpenRouter pricing. When OpenRouter returns cost metadata, Duolingo Simulator records an approximate combined API cost in the report. Set spending limits in your OpenRouter account before extensive practice.
 
 For the lowest-cost workflow, use the built-in bank for routine practice and enable AI for periodic fresh full simulations.
 
@@ -264,7 +264,7 @@ The model override changes the text model only. The STT model remains server-con
 ## Project structure
 
 ```text
-scoreforge-130-plus/
+Duolingo Simulator-130-plus/
 ├─ public/
 │  ├─ index.html                 Main single-page application shell
 │  ├─ styles.css                 Complete responsive visual system
@@ -290,7 +290,7 @@ scoreforge-130-plus/
 ├─ package.json
 ├─ RUN_SCORE_FORGE.cmd
 ├─ VERIFY_PROJECT.cmd
-├─ run-scoreforge.sh
+├─ run-Duolingo Simulator.sh
 ├─ OPENROUTER_SETUP.md
 ├─ CUSTOMIZATION.md
 └─ CREDITS.md                    Bundled photo-source and attribution notes
